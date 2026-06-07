@@ -124,7 +124,7 @@ geom_abline(linetype = "solid", color = "black", size=1) +
 theme_classic()
 ```
 
-![](gini_rstudio_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](gini-analysis_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 Here we can see the *45^o* abline representing 0, or ‘perfect equality’.
 The further away from this line our Petal Width for each species is, the
