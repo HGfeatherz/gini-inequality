@@ -77,6 +77,8 @@ That's great, we can now see each species gini values for each morphological mea
 
 Lets graph it next to see how it looks.
 
+![](figures/figure-gfm/gini-graph.png)
+
 ```{r}
 ggplot(iris, aes(Petal.Width, color = Species), lwd = 1) +
 stat_lorenz(desc = TRUE) +

@@ -117,6 +117,8 @@ other values are \<0.01.
 
 Lets graph it next to see how it looks.
 
+![](figures/figure-gfm/gini-graph.png)
+
 ``` r
 ggplot(iris, aes(Petal.Width, color = Species), lwd = 1) +
 stat_lorenz(desc = TRUE) +
@@ -124,7 +126,7 @@ geom_abline(linetype = "solid", color = "black", size=1) +
 theme_classic()
 ```
 
-![](gini-analysis_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 Here we can see the *45^o* abline representing 0, or ‘perfect equality’.
 The further away from this line our Petal Width for each species is, the
